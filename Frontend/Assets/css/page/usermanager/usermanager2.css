@@ -1,0 +1,510 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.sistem{
+    cursor: pointer;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+div[fieldset] {
+    background-color: transparent;
+}
+
+.avtor{
+    color: black;
+    font-family: 'BPG';
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.xazi{
+    background: black;
+    width: 76vw;
+    height: 2px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.phone{
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 23px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #143B52;
+    margin-top: 10px;
+}
+
+.num{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.Div {
+    background-color: white;
+    margin-top: -18%;
+    margin-left: 50%;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 33vw;
+    height: 150px;
+    border-radius: 7px;
+}
+
+
+.citi{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-bottom: 14px
+}
+
+.info3{
+    margin-top: 58px;
+    margin-left: 10px;
+}
+
+
+.info4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.info5{
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 40px
+}
+
+.info2{
+    margin-left: 40px
+}
+
+.infoNumber2{
+    margin-top: 39px;
+}
+
+.divebi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.divebi1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.num1{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.num2{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.num3{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.num4{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.num5{
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-top: 10px;
+}
+
+.info6{
+    margin-left: 30px;
+}
+
+.sistemInfo{
+    background-color: white;
+    width:408px;
+    height:190px;
+    border-radius: 7px;
+    display: flex;
+}
+
+.xazi4{
+    width: 244px;
+    height: 2px;
+    background: #143B52;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.thriDiv{
+    margin-top: 2%;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+    width: 47vw;
+}
+
+.avor{
+    width: 120px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #143B52;
+    margin-top: 7px;
+    margin-left: 3px;
+    font-family: 'BPG';
+}
+
+.img4{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.sectioStatus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.sectioStatus1{
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+.citi1{
+    width: 154px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-bottom: 14px;
+}
+.sistemIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sistemIn1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.avor1{
+    font-size: 12px;
+    line-height: 15px;
+    color: #143B52;
+    margin-top: 7px;
+    font-family: 'BPG';
+    margin-right: 5px;
+
+}
+
+.xazi5{
+    width: 21vw;
+    height: 2px;
+    background: #143B52;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.sectioStatus2{
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.sectioStatus3{
+    margin-left: 20%;
+    margin-top: -17px;
+}
+
+.citi2{
+    width: 117px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #289BFF;
+    margin-left: 50px;
+}
+
+
+.Div1{
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 27vw;
+    height: 110px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.avor2{
+    width: 70px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #143B52;
+    margin-top: 7px;
+    font-family: 'BPG';
+    margin-right: 5px;
+}
+
+.xazi6{
+    width: 18vw;
+    height: 2px;
+    background: #143B52;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.sistemIn3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectioStatus5{
+    margin-top: 25px;
+}
+
+.kavshiri{
+    height: 16px;
+    width: 291px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'BPG2';
+    cursor: pointer;
+    color: #143B52;
+    margin-left: -1px;
+
+}
+
+.sectioSt1{
+    margin-top: 9px;
+    margin-left: 50px;;
+ }
+
+ .sectioStatus8{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sectioSt2{
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.divebi2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.divebi3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.sectioSt3{
+    margin-left: 120%;
+    margin-top: -44%;
+}
+
+.sistem5{
+    cursor: pointer;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.xazi7{
+    background: black;
+    width: 78vw;
+    height: 2px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.CreateThriDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    flex-direction: row;
+}
+
+@media  only screen and (max-width:500px){
+    .Div {
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin-left: 8px;
+        height: 150px;
+        border-radius: 7px;
+        flex-direction: column;
+        width: 91vw;
+        margin-top: 15px;
+    }
+
+    .thriDiv {
+        width: 93vw;
+    }
+
+
+.Div1 {
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 5px;
+    height: 110px;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 93vw;
+}
+
+.divebi2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -11vw;
+}
+
+.divebi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    margin-top: 18px;
+}
+
+.divebi3{
+    margin-top: 15px;
+}
+
+.info5 {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 9px;
+}
+
+.divebi1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.xazi7{
+    width: 65vw;
+}
+
+.xazi6{
+    width: 70vw;
+}
+
+.xazi{
+    width: 59vw
+}
+
+.xazi5{
+    width: 71vw;
+}
+
+.sistemIn3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+    
+}

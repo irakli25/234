@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.elementDiv{
+    height: 60px;
+    background-color: white;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1E88E5;
+    font-family: 'BPG';
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.top{ 
+    margin-right: 1vw;
+    margin-bottom: 5vw;
+    cursor: pointer;
+}
+
+.content2{
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.paragrap{
+    color: #1E88E5;
+    font-family: 'BPG';
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.inputDiv{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.oper{
+    width: 17vw;
+}
+
+.open{
+    width: 54vw;
+}
+
+.oper1{
+    width: 73vw;
+    height: 8vw;
+}
+
+.inputDiv2{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.operator9{
+    width: 13vw;
+}
+
+.cDiv{
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.input{
+    background-color: #f5f5f5;
+    color: black;
+    font-family: 'BPG';
+    font-size: 12px;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.input:hover{
+    background-color: #f5f5f5;
+}
+
+.img{
+    margin-left: 2vw;
+}
+
+.save{
+    background-color: #f31700;
+}
+
+
+.inut2{
+    display: none;
+}
+
+
+/* 
+.sav:hover{
+    background-color: #f31700;
+
+} */
+/* 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap; */
+    
